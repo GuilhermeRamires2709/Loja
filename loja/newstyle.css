@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+body{
+    background: linear-gradient(45deg, #8e2de2, #4a00e0), no-repeat;
+    }
+
+header{
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    width: 100%;
+    height:150px;
+    padding:10px 0;
+}
+#campo{
+    border:0px;
+    width:500px;
+    height:40px;
+    }
+
+#logo{
+    margin-left: 15px;
+    height: 130px;
+    width:130px;
+    align-items: center;
+}
+
+#login{
+    height: 3.0rem;
+    width: 3.0rem;
+    display: flex;
+    align-items:flex-end;
+    justify-content: right;
+    margin-right: 80px;
+}
+#car{
+    height: 3.0rem;
+    width: 3.0rem;
+    display: flex;
+    align-items:flex-end;
+    justify-content: right;
+    background-color: #ffffff;        
+}
+#la-liga{
+    margin-top: 2.0rem;
+    height: 9.0rem;
+    width: 11.0rem;
+    margin-left: 1.0rem;
+    }
+#liga-nos{
+    margin-top: 2.0rem;
+    height: 9.0rem;
+    width: 11.0rem;
+    margin-left: 1.0rem;
+    }
+#eredivisie{
+    margin-top: 2.0rem;
+    height: 9.0rem;
+    width: 11.0rem;
+    margin-left: 1.0rem;
+
+    }
+#ligue1{
+    margin-top: 2.0rem;
+    height: 9.0rem;
+    width: 11.0rem;
+    margin-left: 1.0rem;
+    }
+#serieA{
+    margin-top: 2.0rem;
+    height: 9.0rem;
+    width: 11.0rem;
+    margin-left: 1.0rem;
+    }
+#premier{
+    margin-top: 2.0rem;
+    height: 9.0rem;
+    width: 11.0rem;
+    margin-left: 1.0rem;
+    }
+#br{
+    margin-top: 2.0rem;
+    height: 9.0rem;
+    width: 11.0rem;
+    margin-left: 1.0rem;
+    }
+#bundesliga{
+    margin-top: 2.0rem;
+    height: 9.0rem;
+    width: 11.0rem;
+    margin-left: 1.0rem;
+
+    }
+.intro{
+    margin-top: 20px;
+    color: darkgoldenrod;
+    text-align: center;
+    
+    }
+.container-p{
+    width: 90%;
+    max-width: 980px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    padding:10px 0;
+    }
+.product1{
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 25px;
+    height: 400px;
+    width: 300px;
+    margin-bottom: 20px;
+    }
+.subproduct1{
+    
+    margin-top: 3px;
+    margin-left: 2px;
+    height: 550px;
+    width: 500px;
+    margin-bottom: 10px;
+    margin-right: 2px;
+    }
+/* Style formProduto */
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    justify-content: space-around;
+    }
+.input-group{
+    display: flex;
+    }
+.input-group > label{
+    flex: 1;
+    }
+.input-group > input{
+    flex: 2;
+    }
+/* adminsession */
+.botao{
+    height: 200px;
+    width: 100px;
+    justify-content:baseline;
+    background-color: #ffffff;
+    }
+/* pagProduto */
+.container-produto{
+    display: flex;
+    margin-top: 20px;        
+    }
+.produto{
+    margin-left: 10vw;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    height: 90px;
+    width: 100px;
+    margin-bottom: 50px;        
+    }
+.fotoproduto{
+    max-width:  300%;
+    }    
+#imagem{
+        max-width:100%;
+        max-height: 70%;
+        object-fit: contain;
+    }
+.container-p .preco {
+    text-align: center;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 2px;
+}
+.container-p .nomeproduto{
+    text-align: center;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 2px;
+}
+input[type=submit] {
+    text-decoration: none;
+    color: rgb(9, 9, 129);
+    background-color: cornflowerblue;
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+.logincar{
+    display: flex;
+    justify-content: right;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+.sair{
+    margin-right: 30px;
+    width: 5%;
+    font-size: large;
+}
+.inserir{
+    margin-bottom: 40px;
+    width: 10%;
+
+}
+
+.ligas{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+select{
+    box-shadow: rgb(rgb(236, 9, 236), rgb(167, 3, 98), rgb(131, 12, 105));
+    font-size: 1.0rem;
+    background-color: rgb(11, 97, 255);
+    color: white;
+    margin-top: 1.8rem;
+    margin-left: 0.5rem;
+
+}
+.filtri{
+    font-size: 1.0rem;
+    width: auto;
+    height: 20px;
+    display: grid;
+
+}
